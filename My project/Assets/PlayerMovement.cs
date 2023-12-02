@@ -8,8 +8,7 @@ public class PlayerMovement : MonoBehaviour
         
     }
 
-    // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         rb.AddForce(0, 0, 2000 * Time.deltaTime);
     }
