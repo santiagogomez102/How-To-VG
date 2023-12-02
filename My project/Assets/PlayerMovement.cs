@@ -1,15 +1,10 @@
 using UnityEngine;
-
 public class PlayerMovement : MonoBehaviour
 {
     public Rigidbody rb;
-    void Start()
-    {
-        
-    }
-
+    public float forwardForce = 2000;
     void FixedUpdate()
     {
-        rb.AddForce(0, 0, 2000 * Time.deltaTime);
+        rb.AddForce(0, 0, forwardForce * Time.deltaTime);
     }
 }

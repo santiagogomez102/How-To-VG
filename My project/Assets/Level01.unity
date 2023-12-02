@@ -270,6 +270,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 492677954}
+  forwardForce: 2000
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -482,7 +483,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1216124555}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: ff362a0d7fc7f954baf4b2830e3bbfa6, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
